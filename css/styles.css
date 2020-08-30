@@ -1,0 +1,148 @@
+/*************************TAG SELECTORS********************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 550%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+
+hr {
+  color: #EAF6F6;
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: 10px;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+/************************CLASS SELECTORS********************/
+.title {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color:  #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.composer {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.profile {
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color:  #66BFBF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 4;
+}
+
+.footer-link {
+  margin: 20px;
+  top: 20px;
+}
+
+.foot {
+  color:  #EAF6F6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.guitar {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.record {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.prof-pic {
+  margin: 50px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#7892c2;
+	border-radius:8px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
